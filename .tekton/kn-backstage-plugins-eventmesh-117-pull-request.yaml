@@ -44,6 +44,8 @@ spec:
       value: '{{revision}}'
     - name: prefetch-input
       value: '[{"path":".","type":"gomod"}]'
+    - name: enable-cache-proxy
+      value: "false"
   taskRunSpecs:
     - pipelineTaskName: sast-shell-check
       stepSpecs:
